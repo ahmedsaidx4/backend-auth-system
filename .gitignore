@@ -2,7 +2,6 @@ node_modules/
 
 client/
 
+/src-origan/
 
-config/
-
-src-origan/
+.env
