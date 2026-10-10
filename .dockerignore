@@ -1,0 +1,11 @@
+node_modules/
+
+client/
+
+
+config/
+
+src-origan/
+
+
+.gitignore

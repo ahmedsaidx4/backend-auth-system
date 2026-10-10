@@ -1,9 +1,9 @@
 const Admin = "Admin";
-const Instractor = "Instractor";
+const Instructor = "Instructor";
 const User = "User";
 
 module.exports = {
   Admin,
-  Instractor,
+  Instructor,
   User,
 };

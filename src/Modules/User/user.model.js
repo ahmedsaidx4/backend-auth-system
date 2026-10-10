@@ -24,7 +24,7 @@ const userSchema = new mongoose.Schema(
     },
     role: {
       type: String,
-      enum: [roleState.Admin, roleState.Instractor, roleState.User],
+      enum: [roleState.Admin, roleState.Instructor, roleState.User],
       default: "User",
     },
     emailVerificationStatus: {

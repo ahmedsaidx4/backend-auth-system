@@ -50,9 +50,9 @@ app.use(
 
 //----------------Routers-------------------------------------
 
-app.use("/api/auth", require("./Modules/Auth/auth.route"));
-app.use("/api/users", require("./Modules/User/user.route"));
-app.use("/api/admins", require("./Modules/Admin/admin.route"));
+app.use("/api/v1/auth", require("./Modules/Auth/auth.route"));
+app.use("/api/v1/users", require("./Modules/User/user.route"));
+app.use("/api/v1/admins", require("./Modules/Admin/admin.route"));
 
 //--------------Error Handles----------------------------------
 

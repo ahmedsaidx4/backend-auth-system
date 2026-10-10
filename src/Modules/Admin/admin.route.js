@@ -15,7 +15,7 @@ router
   .route("/getAllUser")
   .get(
     verifyToken,
-    allowTo(roleState.Admin, roleState.Instractor),
+    allowTo(roleState.Admin, roleState.Instructor),
     controller.getAllUsers,
   );
 
@@ -23,7 +23,7 @@ router
   .route("/getSingleUser/:userId")
   .get(
     verifyToken,
-    allowTo(roleState.Admin, roleState.Instractor),
+    allowTo(roleState.Admin, roleState.Instructor),
     controller.getSingleUsers,
   );
 
